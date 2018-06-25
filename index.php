@@ -15,7 +15,7 @@ Copyright 2018
         <meta charset="UTF-8">
         <meta name="description" content="Witryny internetowe idealnie dopasowane do klienta. Artur Mędrygał - FrontEnd Developer z Bydgoszczy" />
         <meta name="keywords" content="strony internetowe, witryny internetowe, heseya, artur, mędrygał, bydgoszcz, www, html, css, javascript, http, https, website, webdesign, frontend, developer, web developer, frontend developer" />
-		<meta name="theme-color" content="#df9a40" />
+		<meta name="theme-color" content="#252c37" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="Shortcut icon" href="img/favicon.png" />
@@ -48,7 +48,7 @@ Copyright 2018
 
         <section id="about" class="about">
             <h3>O mnie</h3>
-            <p class="soft-text">Posiadam <em>ponad 2 letnie doświadczenie</em> w pracy zarówno w większych komercyjnych projektach jak i mniejszych stronach wizytówkach. Nie straszne są dla mnie nowe wyzwania, czy technologię. Zawsze staram się dopieścić projekt w <em>najmniejszych szczegółach</em>.</p>
+            <p class="soft-text">Posiadam <em>ponad 2 letnie doświadczenie</em> jako freelancer w pracy zarówno w większych komercyjnych projektach jak i mniejszych stronach wizytówkach. Nie straszne są dla mnie nowe wyzwania, czy technologię. Zawsze staram się dopieścić projekt w <em>najmniejszych szczegółach</em>.</p>
             <p class="soft-text">Zajmuję się tworzeniem całej <em>front-end'owej</em> części witryny, najczęściej od projektu do realizacji. Oferuję również możliwość utworzenia strony na podstawie projektu w PSD.</p>
             <a href="#contact" class="btn btn--primary">Skontaktuj się!</a>
         </section>
@@ -119,6 +119,17 @@ Copyright 2018
                     <img src="img/projects/mbf.png" alt="Marked by Fate" data-subtext="Marked by Fate" class="project__img">
                 </div>
 
+                <div class="project">
+                    <div class="project__about">
+                        <h4>Artur Mędrygał</h4>
+                        <h5>Strona wizytówka</h5>
+                        <p class="soft-text">Moja osobista strona portfolio.</p>
+                        <p class="soft-text">Założeniem była przejrzystość witryny i klarowna treść oraz minimalizm. Chciałem aby moja prywatna strona nie tylko mówiła o mnie, ale również była przyjemna dla oka.</p>
+                        <a href="http://amedrygal.pl" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                    </div>
+                    <img src="img/projects/amedrygal.png" alt="Artur Mędrygał" data-subtext="Artur Mędrygał" class="project__img">
+                </div>
+
             </div>
         </section>
 
@@ -129,6 +140,7 @@ Copyright 2018
                 <a href="https://www.facebook.com/artur.medrygal" target="_blank" class="social"><img src="img/logos/fb.png" alt="Facebook"></a>
                 <a href="https://www.linkedin.com/in/artur-m%C4%99dryga%C5%82-633455162/" target="_blank" class="social"><img src="img/logos/linkedin.png" alt="Linkedin"></a>
                 <a href="https://www.behance.net/medrygal_artur" target="_blank" class="social"><img src="img/logos/behance.png" alt="Behance"></a>
+                <a href="https://github.com/demtario" target="_blank" class="social"><img src="img/logos/github.png" alt="GitHub"></a>
                 <a href="mailto:medrygal.artur@gmail.com" class="social"><img src="img/logos/mail.png" alt="E-mail"></a>
             </div>
         </section>
@@ -141,7 +153,8 @@ Copyright 2018
         <script src="https://api.heseya.com/hesgallery/hes-gallery.js"></script>
         <script>
             HesGallery.setOptions({
-                disableScrolling: true
+                disableScrolling: true,
+                minResolution: 544
             })
         </script>
     </body>

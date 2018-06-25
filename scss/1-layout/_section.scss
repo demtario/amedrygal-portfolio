@@ -92,15 +92,12 @@ section{
   
   &--img{
     background: url('../img/bg.jpeg');
-
-    @media #{$media-md} {
-      background-size: cover;
-    }
+    background-size: cover;
   }
 
   &--pattern{
     /* Background pattern from Toptal Subtle Patterns */
     background: url('../img/dark_wall.png');
-    box-shadow: inset 0 0 0 1000px rgba($secondaryColor, 0.6);
+    box-shadow: inset 0 0 0 1000px rgba($secondaryColor, 0.4);
   }
 }
