@@ -29,31 +29,6 @@ gulp.task('styles', function() { //Operacje na stylach
     .pipe(gulp.dest('./css'))
 });
 
-gulp.task('ftp', function() { //Upload na ftp
-  
-  var conn = ftp.create( {
-        host:     '***REMOVED***',
-        user:     '***REMOVED***',
-        password: '***REMOVED***',
-        parallel: 10,
-        log:      gutil.log
-    } );
- 
-    var globs = [
-        'img/**',
-        'css/**',
-        'js/**',
-        'templates/**',
-        'sites/**',
-        '.htaccess',
-        'index.php'
-    ];
-  
-  return gulp.src( globs, { base: '.', buffer: false } )
-        //.pipe( conn.newer( '/ft.heseya.com/public_html' ) ) // only upload newer files
-        .pipe( conn.dest( '/ft.heseya.com/public_html' ) );
-})
-
 function swallowError (error) {
 
 	// If you want details of the error in the console
