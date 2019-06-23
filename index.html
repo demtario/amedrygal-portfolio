@@ -1,10 +1,8 @@
 <!--
 
-Designed & developed by Artur Mędrygał
+Designed & developed by Artur Mędrygał <medrygal.artur@gmail.com>
 
-amedrygal@heseya.com
-
-Copyright 2018
+Copyright 2018 - 2019
 
 -->
 <!DOCTYPE HTML>
@@ -18,9 +16,15 @@ Copyright 2018
 		<meta name="theme-color" content="#252c37" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <link rel="Shortcut icon" href="img/favicon.png" />
+        <meta property="og:title" content="Artur Mędrygał - FrontEnd Developer | Bydgoszcz"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://amedrygal.pl/"/>
+        <meta property="og:description" content="Witryny internetowe idealnie dopasowane do klienta."/>
+        <meta property="og:image" content="https://amedrygal.pl/img/ogImage.png"/>
+        <meta name="twitter:card" content="summary" />
+        <link rel="Shortcut icon" href="/img/favicon.png" />
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500&amp;subset=latin-ext" rel="stylesheet" >
-        <link rel="stylesheet" href="css/app.css" />
+        <link rel="stylesheet" href="/css/app.css" />
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119151415-2"></script>
@@ -30,6 +34,29 @@ Copyright 2018
           gtag('js', new Date());
 
           gtag('config', 'UA-119151415-2');
+        </script>
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Person",
+          "name": "Artur Mędrygał",
+          "url": "https://amedrygal.pl",
+          "image": "https://amedrygal.pl/img/me.jpg",
+          "sameAs": [
+            "https://www.facebook.com/artur.medrygal",
+            "https://www.linkedin.com/in/amedrygal/",
+            "https://github.com/demtario",
+            "https://www.behance.net/medrygal_artur"
+          ],
+          "jobTitle": "FrontEnd Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Heseya",
+            "url": "https://heseya.com",
+            "email": "info@heseya.com"
+          }  
+        }
         </script>
     </head>
     <body>
@@ -53,7 +80,7 @@ Copyright 2018
                 <h1 class="name">Artur <span>Mędrygał</span></h1>
                 <h2>Front<span>End</span> Developer</h2>
             </div>
-            <img src="img/logo.png" alt="" class="introduction__logo">
+            <img src="/img/logo.png" alt="" class="introduction__logo">
         </header>
 
         <main>
@@ -94,9 +121,9 @@ Copyright 2018
                             <h5>Sklep internetowy</h5>
                             <p class="soft-text">Front do sklepu internetowego z używaną odzieżą.</p>
                             <p class="soft-text">Stworzona w niepowtarzalnym klimacie i utrzymana w prostym i czystym stylu, wzbogaconym przez fantastyczne zdjęcia.</p>
-                            <a href="https://vintagezona.com" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                            <a href="https://vintagezona.com" rel="noopener nofollow" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
                         </div>
-                        <img src="img/projects/vintagezona.png" alt="Vintage Zona" data-subtext="Vintage Zona" class="project__img">
+                        <img src="/img/projects/vintagezona.png" alt="Vintage Zona" data-subtext="Vintage Zona" class="project__img">
                     </div>
 
                     <div class="project">
@@ -105,9 +132,9 @@ Copyright 2018
                             <h5>Sklep internetowy</h5>
                             <p class="soft-text">Front do sklepu internetowego producenta street-wear'owej biżuterii.</p>
                             <p class="soft-text">Responsywna witryna o minimalistycznym akcencie wykonana ze starannością o najmniejsze detale i z troską o łatwość użytkowania.</p>
-                            <a href="https://kupdepth.pl" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                            <a href="https://kupdepth.pl" rel="noopener nofollow" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
                         </div>
-                        <img src="img/projects/depth.png" alt="Depth" data-subtext="Depth" class="project__img">
+                        <img src="/img/projects/depth.png" alt="Depth" data-subtext="Depth" class="project__img">
                     </div>
 
                     <div class="project">
@@ -116,9 +143,9 @@ Copyright 2018
                             <h5>Strona wizytówka</h5>
                             <p class="soft-text">Strona internetowa dla spółki zajmującej się tworzeniem systemów i stron internetowych.</p>
                             <p class="soft-text">Projekt jest prostą stroną wizytówką urozmaiconą przy pomocy animacji CSS. Jest w pełni responsywny i semantyczny, a także zoptymalizowany pod kątem SEO.</p>
-                            <a href="https://heseya.com" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                            <a href="https://heseya.com" rel="noopener nofollow" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
                         </div>
-                        <img src="img/projects/heseya2.png" alt="Heseya" data-subtext="Heseya" class="project__img">
+                        <img src="/img/projects/heseya2.png" alt="Heseya" data-subtext="Heseya" class="project__img">
                     </div>
 
                     <div class="project">
@@ -127,9 +154,9 @@ Copyright 2018
                             <h5>Strona portfolio</h5>
                             <p class="soft-text">Wizytówka dla fotografa i reżysera</p>
                             <p class="soft-text">Założeniem była przejrzystość witryny i klarowna treść oraz minimalizm.</p>
-                            <a href="http://hipol.it" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                            <a href="http://hipol.it" rel="noopener nofollow" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
                         </div>
-                        <img src="img/projects/hipolit.png" alt="HesGallery" data-subtext="HesGallery" class="project__img">
+                        <img src="/img/projects/hipolit.png" alt="HesGallery" data-subtext="HesGallery" class="project__img">
                     </div>
 
                     <div class="project">
@@ -138,9 +165,9 @@ Copyright 2018
                             <h5>Sklep internetowy</h5>
                             <p class="soft-text">Sklep internetowy dla firmy meblarskiej.</p>
                             <p class="soft-text">FrontEnd witryny był przygotowywany do wdrożenia jako pełnoprawny system zakupowy w oparciu o graficzne mapy odnośników.</p>
-                            <a href="https://kamduo.pl" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                            <a href="https://kamduo.pl" rel="noopener nofollow" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
                         </div>
-                        <img src="img/projects/kamduo.png" alt="Kamduo" data-subtext="Kamduo" class="project__img">
+                        <img src="/img/projects/kamduo.png" alt="Kamduo" data-subtext="Kamduo" class="project__img">
                     </div>
 
                     <!-- <div class="project">
@@ -149,9 +176,9 @@ Copyright 2018
                             <h5>Strona wizytówka</h5>
                             <p class="soft-text">Witryna silnika papierowego RPG'a Marked By Fate.</p>
                             <p class="soft-text">Projekt wymagał zaprojektowania wyglądu od podstaw, tak by zapewniał możliwość wygodnego przejrzenia załej zawartej na stronie treści.</p>
-                            <a href="https://mbf.gravehand.com/" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
+                            <a href="https://mbf.gravehand.com/" rel="noopener nofollow" target="_blank" class="btn btn--primary">Zobacz na żywo!</a>
                         </div>
-                        <img src="img/projects/mbf.png" alt="Marked by Fate" data-subtext="Marked by Fate" class="project__img">
+                        <img src="/img/projects/mbf.png" alt="Marked by Fate" data-subtext="Marked by Fate" class="project__img">
                     </div> -->
 
                     <div class="project">
@@ -160,10 +187,10 @@ Copyright 2018
                             <h5>Biblioteka</h5>
                             <p class="soft-text">Lekka biblioteka tworząca galerię.</p>
                             <p class="soft-text">Została stworzona by w łatwy sposób otrzymać nowoczesną galerię w moich innych projektach. Skrypt jest pozbawiony zewnętrznych zależności przez co jest lekki a zarazem zapewnia sporo opcji.</p>
-                            <a href="https://github.com/demtario/hes-gallery" target="_blank" class="btn btn--primary">Repozytorium</a>
+                            <a href="https://github.com/demtario/hes-gallery" rel="noopener nofollow" target="_blank" class="btn btn--primary">Repozytorium</a>
                             <a href="http://amedrygal.pl/hes-gallery" target="_blank" class="btn btn--primary">Zobacz demo!</a>
                         </div>
-                        <img src="img/projects/hesgallery.png" alt="HesGallery" data-subtext="HesGallery" class="project__img">
+                        <img src="/img/projects/hesgallery.png" alt="HesGallery" data-subtext="HesGallery" class="project__img">
                     </div>
 
                     <!-- <div class="project">
@@ -173,7 +200,7 @@ Copyright 2018
                             <p class="soft-text">Moja osobista strona portfolio.</p>
                             <p class="soft-text">Założeniem była przejrzystość witryny i klarowna treść oraz minimalizm. Chciałem aby moja prywatna strona nie tylko mówiła o mnie, ale również była przyjemna dla oka.</p>
                         </div>
-                        <img src="img/projects/amedrygal.png" alt="Artur Mędrygał" data-subtext="Artur Mędrygał" class="project__img">
+                        <img src="/img/projects/amedrygal.png" alt="Artur Mędrygał" data-subtext="Artur Mędrygał" class="project__img">
                     </div> -->
 
                 </div>
@@ -183,22 +210,22 @@ Copyright 2018
                 <h3>Kontakt</h3>
                 <small class="soft-text">Czekam na Twoją wiadomość!</small>
                 <div class="social-wrapper">
-                    <a href="https://www.facebook.com/artur.medrygal" target="_blank" class="social"><img src="img/logos/fb.png" alt="Facebook"></a>
-                    <a href="https://www.linkedin.com/in/artur-m%C4%99dryga%C5%82-633455162/" target="_blank" class="social"><img src="img/logos/linkedin.png" alt="Linkedin"></a>
-                    <a href="https://www.behance.net/medrygal_artur" target="_blank" class="social"><img src="img/logos/behance.png" alt="Behance"></a>
-                    <a href="https://github.com/demtario" target="_blank" class="social"><img src="img/logos/github.png" alt="GitHub"></a>
-                    <a href="mailto:medrygal.artur@gmail.com" class="social"><img src="img/logos/mail.png" alt="E-mail"></a>
+                    <a rel="noopener nofollow" href="https://www.facebook.com/artur.medrygal" target="_blank" class="social"><img src="/img/logos/fb.png" alt="Facebook"></a>
+                    <a rel="noopener nofollow" href="https://www.linkedin.com/in/amedrygal/" target="_blank" class="social"><img src="/img/logos/linkedin.png" alt="Linkedin"></a>
+                    <a rel="noopener nofollow" href="https://www.behance.net/medrygal_artur" target="_blank" class="social"><img src="/img/logos/behance.png" alt="Behance"></a>
+                    <a rel="noopener nofollow" href="https://github.com/demtario" target="_blank" class="social"><img src="/img/logos/github.png" alt="GitHub"></a>
+                    <a rel="noopener nofollow" href="mailto:medrygal.artur@gmail.com" class="social"><img src="/img/logos/mail.png" alt="E-mail"></a>
                 </div>
             </section>
             
         </main>
 
         <footer>
-            Copyright 2018 | <span class="primary">Artur Mędrygał</span> | Photo from <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+            Copyright &copy; 2018 - 2019 | <span class="primary">Artur Mędrygał</span> | Photo from <a href="https://www.pexels.com/" rel="noopener nofollow" target="_blank">Pexels</a>
         </footer>
         
-        <script type="text/javascript" src="js/scripts.js"></script>
-        <script src="https://api.heseya.com/hesgallery/hes-gallery.js"></script>
+        <script type="text/javascript" src="/js/scripts.js"></script>
+        <script src="https://unpkg.com/hes-gallery/dist/hes-gallery.min.js"></script>
         <script>
             HesGallery.setOptions({
                 disableScrolling: true,
